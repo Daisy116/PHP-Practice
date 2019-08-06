@@ -9,7 +9,7 @@ $season = array(
 
 echo "每年的四季分別為：<br>";
 foreach ($season as $key => $value){
-	echo $key, "=>", $value, "<br>";
+	echo $key. "=>". $value. "<br>";
 }
 
 

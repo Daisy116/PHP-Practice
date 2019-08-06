@@ -16,6 +16,6 @@ PHP與jQuery、
 jQuery Mobile整合運用
 fileContent;
 
-$fileSize = file_put_contents("data2.txt", $content);
+$fileSize = file_put_contents("data2.txt", $content);   //file_put_contents(檔名,要置入的內容)
 echo "File size: $fileSize <br />-- Done --";
 ?>

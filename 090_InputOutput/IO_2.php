@@ -19,6 +19,13 @@ $fileResource = opendir ( $fileDir );
 	<?php endwhile; ?>
 	</ul>
 
+	<ul>  <!-- html包php -->
+		<?php for($i = 0;$i < 3;$i++){ ?>
+		<li>1</li>
+		<li><?php echo "i為".$i; ?></li>
+		<?php } ?>
+	</ul>
+
 <?php closedir($fileResource); ?>
 </body>
 </html>
