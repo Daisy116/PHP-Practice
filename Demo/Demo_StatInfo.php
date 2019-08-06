@@ -12,7 +12,7 @@
 	if (isset($_POST["btnWriteCookie"]))
 	{
 		// setcookie("userid", $_POST["txt2"]);
-		setcookie("userid", $_POST["txt2"], time() + 60 * 60 * 24 * 7);
+		setcookie("userid", $_POST["txt2"], time() + 60 * 60 * 24 * 7);  //time()+7天內cookie都有效。如果time減到變負的，瀏覽器不會記住這個cookie
 	}
 	
 	if (isset($_POST["btnReadCookie"]))

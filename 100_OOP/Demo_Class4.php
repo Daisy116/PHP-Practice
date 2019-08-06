@@ -37,11 +37,11 @@ class CAnimal
 	
 }
 
-class CDog extends CAnimal {
+class CDog extends CAnimal {   //extends繼承，CDog繼承CAnimal
 	private $_price = 0;
 	
 	function __construct($weightValue = 0, $priceValue = 0) {
-		parent::__construct($weightValue);
+		parent::__construct($weightValue);   //parent::，代表父類別的什麼功能函式
 		$this->setPrice($priceValue);
 	}
 	
